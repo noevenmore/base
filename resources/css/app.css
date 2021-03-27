@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.btn {
+    @apply transform duration-200 font-semibold border rounded py-2 px-3 hover:scale-105 shadow focus:outline-none text-white focus:ring-1;
+}
+
+.btn-green {
+    @apply border-green-800 bg-green-600 hover:bg-green-500 ring-green-700;
+}
+
+.btn-yellow {
+    @apply border-yellow-800 bg-yellow-600 hover:bg-yellow-500 ring-yellow-700;
+}
+
+.btn-red {
+    @apply border-red-800 bg-red-600 hover:bg-red-500 ring-red-700;
+}
+
+.btn-gray {
+    @apply border-gray-800 bg-gray-600 hover:bg-gray-500 ring-gray-700;
+}
+
+.input {
+    @apply block border focus:ring-2 focus:outline-none rounded-sm mt-1 px-2 py-1 w-full;
+}
